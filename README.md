@@ -39,7 +39,7 @@
 - Bbox Head :(batchsize * 8400 * 116)
 - Segmant head :(batchsize * 32 * 160 * 160) 
 
-### Step1 Convert the Onxx model
+### Step1: Convert the Onxx model
 `python v8trans.py yolov8s-seg.onnx`
 
 - yolov8s-seg.onnx convert before
@@ -49,9 +49,9 @@
 ![](yolov8_seg_after.png)
 
 
-### Step2 Compile the project
+### Step2: Compile the project
 `cmake -S . -B build`
-### Step3 Build the project
+### Step3: Build the project
 `cmake --build build`
 ### Step4: Convert engine model, 
 ```bash
