@@ -8,10 +8,10 @@
 - 🚀 Cuda内核-分割头的Mask解码
 
 # Yolov8 网络框架
-![](yolov8.png)
+![](assets/yolov8.png)
 
 # Yolov8检测框结果
-![](Result.jpg)
+![](assets/result.gif)
 
 # 描述
 - build.cu: 创建TensorRT引擎的封装(FP16或INT8)
